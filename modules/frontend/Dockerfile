@@ -1,4 +1,6 @@
-FROM node:14.8.0-alpine3.12
+# syntax=docker/dockerfile:1
+
+FROM node:14-alpine
 
 WORKDIR .
 
